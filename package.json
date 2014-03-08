@@ -1,0 +1,25 @@
+{
+  "name": "example_kue_use",
+  "version": "0.0.1",
+  "description": "example of using kue with node's cluster functionality",
+  "main": "test_cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmarca/kue_example.git"
+  },
+  "keywords": [
+    "kue"
+  ],
+  "author": "James E. Marca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmarca/kue_example/issues"
+  },
+  "homepage": "https://github.com/jmarca/kue_example",
+  "dependencies": {
+    "kue": "~0.7.5"
+  }
+}
