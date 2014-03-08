@@ -1,6 +1,6 @@
 # Exmaple of using kue with node's cluster
 
-Quick modification of the code in the README for Kue
+Quick modification of the cluster example code in the README for [kue](https://github.com/LearnBoost/kue)
 
 
 # Run
