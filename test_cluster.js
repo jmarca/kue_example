@@ -32,6 +32,9 @@ if (cluster.isMaster) {
     });
 
 } else {
+
+  // not cluster.isMaster, but rather a spawned job
+
   jobs.process('email', function(job, done){
     var pending = 5
       , total = pending;
