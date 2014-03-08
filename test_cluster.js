@@ -15,7 +15,7 @@ if (cluster.isMaster) {
         var name = ['tobi', 'loki', 'jane', 'manny'][Math.random() * 4 | 0];
         var job = jobs.create('email', {
             title: 'emailing ' + name + '', body: 'hello'
-        }).expire(10).save();
+        }).save();
 
         setTimeout(create2, Math.random() * 1000 | 0);
     }
